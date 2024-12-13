@@ -15,13 +15,9 @@ import { FaInstagram } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { FaPinterest } from "react-icons/fa";
 
-
-
-
 const Footer = () => {
   return (
     <footer className="bg-blackkk">
-
         <div className="flex flex-col md:flex-row justify-between items-center px-[135px] py-[50px]">
           <div className="text-white md:w-[50%] w-[100%]">
               <h2 className="text-[20px] md:text-[32px] font-semibold"><span className="text-[#FF9F0D]">St</span>ill Need Our Support</h2>
@@ -34,16 +30,12 @@ const Footer = () => {
             />
             <button className="text-[#FF9F0D] bg-white py-[5px] md:py-[10px] px-[10px] md:px-[20px]">Subscribe Now</button>
           </div>
-
-          
         </div>
-
           <hr className="my-4 border-[#FF9F0D] mx-[135px]" />
-
       <div className="mx-auto w-full max-w-screen-xl ">
-        <div className="grid grid-cols-2  md:gap-[50px] px-0 md:px-[135px] py-6 lg:py-8 md:grid-cols-4">
+        <div className="grid grid-cols-2  md:gap-[50px] gap-1 px-6 md:px-[135px] py-6 lg:py-8 md:grid-cols-4">
           <div>
-            <h2 className="mb-6 text-[24px] font-semibold  uppercase text-whitetext">
+            <h2 className="mb-6 text-[24px] font-semibold  uppercase  text-whitetext">
               About Us
             </h2>
             <ul className="text-gray-500  font-medium">

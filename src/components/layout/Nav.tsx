@@ -17,9 +17,9 @@ const Nav = () => {
         <ul className='text-whitetext flex gap-[10px] font-medium leading-[24px] text-[15px] '>
         <Link href={"/"}><li className='w-[45px] h-[24px] font-medium leading-[24px] '>Home</li></Link>
         <Link href={"/ourmenu"}><li className='w-[45px] h-[24px] font-medium leading-[24px] '>Menu</li></Link>
-        <li className='w-[45px] h-[24px] font-medium leading-[24px] '>Blog</li>
+        <Link href={"/blog"}><li className='w-[45px] h-[24px] font-medium leading-[24px] '>Blog</li></Link>
         <Link href={"/ourchef"}><li className='w-[45px] h-[24px] font-medium leading-[24px] '>Chef</li></Link>
-        <li className='w-[45px] h-[24px] font-medium leading-[24px] '>About</li>
+        <Link href={"/aboutus"}><li className='w-[45px] h-[24px] font-medium leading-[24px] '>About</li>        </Link>
         <Link href={"/shop"}><li className='w-[45px] h-[24px] font-medium leading-[24px] '>Shop</li></Link>
         <Link href={"/signin"}><li className='w-[45px] h-[24px] font-medium leading-[24px] '>Signin</li></Link>
       </ul>
@@ -47,13 +47,13 @@ const Nav = () => {
           </SheetTrigger>
           <SheetContent>
             <ul className="flex flex-col gap-[10px] font-medium text-[16px] text-blackkk">
-              <li className="hover:text-bordercoloryello cursor-pointer">Home</li>
-              <li className="hover:text-bordercoloryello cursor-pointer">Menu</li>
-              <li className="hover:text-bordercoloryello cursor-pointer">Blog</li>
-              <li className="hover:text-bordercoloryello cursor-pointer">Page</li>
-              <li className="hover:text-bordercoloryello cursor-pointer">About</li>
-              <li className="hover:text-bordercoloryello cursor-pointer">Shop</li>
-              <li className="hover:text-bordercoloryello cursor-pointer">Contact</li>
+            <Link href={"/"}><li className='font-medium hover:text-bordercoloryello '>Home</li></Link>
+        <Link href={"/ourmenu"}><li className='font-medium hover:text-bordercoloryello '>Menu</li></Link>
+        <Link href={"/blog"}><li className='font-medium hover:text-bordercoloryello '>Blog</li></Link>
+        <Link href={"/ourchef"}><li className='font-medium hover:text-bordercoloryello '>Chef</li></Link>
+        <Link href={"/aboutus"}><li className='font-medium hover:text-bordercoloryello '>About</li>        </Link>
+        <Link href={"/shop"}><li className='font-medium hover:text-bordercoloryello '>Shop</li></Link>
+        <Link href={"/signin"}><li className='font-medium hover:text-bordercoloryello '>Signin</li></Link>
             </ul>
           </SheetContent>
         </Sheet>

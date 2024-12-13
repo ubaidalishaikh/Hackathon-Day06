@@ -5,51 +5,6 @@ import client from "../../../public/client.png";
 import { PiQuotesLight } from "react-icons/pi";
 import { GoDotFill } from "react-icons/go";
 
-// const Testi = () => {
-//   return (
-//     <div className="px-[100px] mt-[100px]">
-//         <h1 className="text-bordercoloryello font-greatVibes text-[32px] leading-[40px] font-medium">Testimonials
-//       </h1>
-//       <h1 className="font-helvetica font-bold text-[40px] leading-[45px] text-whitetext">
-//         What our client are saying
-//       </h1>
-//       <div className="px-[100px] flex flex-col items-center">
-//       <div className="mt-10 bg-white rounded-lg shadow-lg p-8 flex flex-col items-center w-[868px]">
-//         <div className="w-[120px] h-[120px] rounded-full overflow-hidden">
-//           <Image src={client} alt="client pic" className="object-cover" />
-//         </div>
-//         <div className="mt-6">
-//           <PiQuotesLight className="text-bordercoloryello text-[48px]" />
-//         </div>
-//         <p className="mt-4 text-lg text-gray-600 text-center w-[696px] leading-[26px] font-medium">
-//           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam
-//           pellentesque bibendum non dui volutpat fringilla bibendum. Urna, elit
-//           augue urna, vitae feugiat pretium donec id elementum. Ultrices mattis
-//           sed vitae mus risus. Lacus nisi, et ac dapibus sit eu velit in consequat.
-//         </p>
-
-// <div className="flex text-2xl mt-[10px]">
-// <MdStar className="text-bordercoloryello"/><MdStar className="text-bordercoloryello"/><MdStar className="text-bordercoloryello"/><MdStar className="text-bordercoloryello"/><MdStar className="text-gray-400"/>
-
-// </div>
-//         <h2 className="mt-6 text-[24px] font-bold text-gray-800">
-//           Alamin Hasan
-//         </h2>
-//         <p className="text-gray-500">Food Specialist</p>
-//       </div>
-//         <div className="text-xl flex mt-[20px]">
-//         <GoDotFill className="text-bordercoloryello"/><GoDotFill className="text-bordercoloryello/30"/><GoDotFill className="text-bordercoloryello/30"/><GoDotFill className="text-bordercoloryello/30"/>
-//         </div>
-//     </div>
-//     </div>
-//   );
-// };
-
-// export default Testi;
-
-
-
-
 const Testi = () => {
   return (
     <div className="px-[20px] md:px-[50px] lg:px-[100px] mt-[50px] md:mt-[80px] lg:mt-[100px]">

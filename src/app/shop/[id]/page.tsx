@@ -20,7 +20,7 @@ interface Params {
 }
 const page = ({params}: Params) => {
   const parmcal = Number(params.id)
-  const datashop = shopdetail.find((item) => item.id === parmcal)
+  const datashop = shopdetail.find((item:any) => item.id === parmcal)
   return (
     <div>
       <header className="bg-black text-white">

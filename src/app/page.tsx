@@ -10,6 +10,7 @@ import Ourmenu from "@/components/layout/Ourmenu";
 import Review from "@/components/layout/Review";
 import Testi from "@/components/layout/Testi";
 import Whyus from "@/components/layout/Whyus";
+import ProductCards from "./Products/page";
 
 export default function Home() {
   return (
@@ -27,10 +28,12 @@ export default function Home() {
     <Whyus/>
     <Review/>
     <Ourmenu/>
+    <ProductCards/>
     <Chefs/>
     <Testi/>
     <ActiveProcess/>
     <Blog/>
+    
 
     </div>
   );

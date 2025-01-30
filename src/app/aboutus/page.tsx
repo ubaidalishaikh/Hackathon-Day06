@@ -125,9 +125,9 @@ export default function About() {
   style={{ backgroundImage: "url('/allnav.png')" }}
 >
   <div className="text-center text-white">
-    <h2 className="text-4xl font-bold">Our Chef</h2>
+    <h2 className="text-4xl font-bold">About Page</h2>
     <p className="pt-[10px]">
-      <Link href="/" className="text-yellow-400">Home</Link> › Shop
+      <Link href="/" className="text-yellow-400">Home</Link> › About
     </p>
   </div>
 </section> 

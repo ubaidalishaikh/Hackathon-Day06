@@ -64,7 +64,7 @@ const page = () => {
         <div className="text-center text-white">
           <h2 className="text-4xl font-bold">Blog List</h2>
           <p className="pt-2">
-            <Link href="/" className="text-yellow-400">Home</Link> › Chef
+            <Link href="/" className="text-yellow-400">Home</Link> › Blog
           </p>
         </div>
       </section>
@@ -114,10 +114,10 @@ const page = () => {
             pug VHS try-hard.
           </p>
           <div className='flex gap-2 justify-center text-xl text-blackkk mt-1'>
-                <a href="https://pk.linkedin.com/in/ghaniya-khan-138919308"> <FaLinkedin /></a>
-                <a href="https://github.com/Ghaniya08"><IoLogoGithub  /></a>
-                <a href="https://instagram.com/ghaniya08">< FaInstagram/></a>
-                <a href="https://www.facebook.com/profile.php?id=61554662968933&mibextid=ZbWKwL"><FaFacebook /></a></div>
+                <a href="https://www.linkedin.com/in/ubaid-ali098?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"> <FaLinkedin /></a>
+                <a href="https://github.com/ubaidalishaikh"><IoLogoGithub  /></a>
+                <a href="https://www.instagram.com/ig_ubaid_ali?igsh=OTYxb3RrN3piY3cy&utm_source=qr">< FaInstagram/></a>
+                <a href="https://www.facebook.com/share/15LzXcWGjG/?mibextid=wwXIfr"><FaFacebook /></a></div>
         </div>
       </div>
     </div>
@@ -337,10 +337,10 @@ const page = () => {
         <div className="border-[1px] border-gray-400 mt-10 px-[22px] py-4 max-w-[400px] mx-auto">
         <h1 className='text-2xl font-bold'>Follow us</h1>
         <div className='flex gap-4 justify-center text-xl text-blackkk mt-1'>
-                <a href="https://pk.linkedin.com/in/ghaniya-khan-138919308"> <FaLinkedin /></a>
-                <a href="https://github.com/Ghaniya08"><IoLogoGithub  /></a>
-                <a href="https://instagram.com/ghaniya08">< FaInstagram/></a>
-                <a href="https://www.facebook.com/profile.php?id=61554662968933&mibextid=ZbWKwL"><FaFacebook /></a>
+        <a href="https://www.linkedin.com/in/ubaid-ali098?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"> <FaLinkedin /></a>
+                <a href="https://github.com/ubaidalishaikh"><IoLogoGithub  /></a>
+                <a href="https://www.instagram.com/ig_ubaid_ali?igsh=OTYxb3RrN3piY3cy&utm_source=qr">< FaInstagram/></a>
+                <a href="https://www.facebook.com/share/15LzXcWGjG/?mibextid=wwXIfr"><FaFacebook /></a>
         </div>
 
         </div>
@@ -353,3 +353,4 @@ const page = () => {
 }
 
 export default page
+
